@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h2>Summation Function</h2>
+  <p>
+    {% if x != None and y != None %}
+      The sum of two numbers {{ x }} and {{ y }} is equal to {{ x + y }}
+    {% else %}
+      Summation function, enter arguments into the url.
+    {% endif %}
+  </p>
+
+{% endblock %}
