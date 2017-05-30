@@ -1,7 +1,7 @@
 {
 "quiz" : {
-  "What is not a fucking acid?" : {
-    "text" : "What is not a fucking acid?",
+  "What is not an acid?" : {
+    "text" : "What is not an acid?",
     "answers": ["donates hydrogen ion in solution",
                 "donates hydroxide ion in solution",
                 "ph lower than 7",
