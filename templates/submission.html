@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <ul class="list-group">
+    <div class="progress">
+       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percentage }}%"><span class="sr-only">40% Complete (success)</span></div>
+     </div>
+    {% for submission in submissions %}
+      <li class="list-group-item">
+        <ul class="list-group">
+          <li class="list-group-item active">
+            Question: {{ submission.question_text }}
+          </li>
+          <li class="list-group-item" style="padding-bottom:23px">
+            Submitied Answer: {{ submission.submitied_answer }}
+            <h3 style="float:right;margin:0px; ">
+              {% if submission.isCorrect %}
+                <span class="label label-success">Correct!</span>
+              {% else %}
+                <span class="label label-danger">Incorrect.</span>
+              {% endif%}
+            </h3>
+          </li>
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+{% endblock %}

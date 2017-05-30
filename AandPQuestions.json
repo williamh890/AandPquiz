@@ -1,0 +1,65 @@
+{
+"quiz" : {
+  "What is not a fucking acid?" : {
+    "text" : "What is not a fucking acid?",
+    "answers": ["donates hydrogen ion in solution",
+                "donates hydroxide ion in solution",
+                "ph lower than 7",
+                "tastes sour"],
+    "answer" : "donates hydroxide ion in solution"
+  },
+
+   "How does your body maintain homeostasis most of the time?" : {
+    "text" : "How does your body maintain homeostasis most of the time?",
+    "answers": ["negative feedback",
+                "positive feedback",
+                "pooping",
+                "burping"],
+    "answer": "negative feedback"
+  },
+
+  "What is the serous membrane around the heart?" : {
+    "text" : "What is the serous membrane around the heart?",
+    "answers" : ["peritoneum",
+                 "pericardium",
+                 "pleural",
+                 "serous"],
+    "answer" : "pericardium"
+  },
+
+  "What are the building blocks of carbohydrates?" : {
+    "text" : "What are the building blocks of carbohydrates?",
+    "answers": ["Fatty acids",
+               "amino acids",
+               "monosaccharides",
+               "nucleic acids"],
+    "answer" : "monosaccharides"
+  },
+
+  "How does cholesterol help your cells?" : {
+    "text": "How does cholesterol help your cells?",
+    "answers": ["it doesn't",
+                "stabilizes the membrane",
+                "its a hormone that regulates urine cycles",
+                "all the above"],
+    "answer" : "stabilizes the membrane"
+  },
+
+  "What is an example of an ATP powered pump?": {
+    "text": "What is an example of an ATP powered pump?",
+    "answers": ["sodium potassium",
+                "floride",
+                "blood",
+                "urea"],
+    "answer" : "sodium potassium"
+  },
+
+  "Sagittal plain cuts the body into..." : {
+    "text": "Sagittal plain cuts the body into...",
+    "answers": ["left and right",
+               "anterior, posterior",
+               "superior, inferior",
+               "diagonal"],
+      "answer" : "left and right"
+  }  }
+}

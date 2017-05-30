@@ -4,13 +4,16 @@
     <title>My Flask App</title>
     <!--bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/../static/style.css" />
   </head>
   <body>
-    <h1> Flask Practice Application</h1>
-    <div class="container">
-      <!-- This is where the layout goes!! -->
-      {% block body %}{% endblock %}
-    </div>
+    <div class="page-header" style="text-align:center">
+      <h1>Anatomy and Physiology Quiz</h1>
+      </div>
+      <div class="container">
+        <!-- This is where the layout goes!! -->
+        {% block body %}{% endblock %}
+      </div>
 
     <!--Import bootstrap scripts-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -18,8 +21,12 @@
     <script type="text/javascript"></script>
   </body>
 
-  <footer>
-    William Horn
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">
+        By: William Horn
+      </p>
+    </div>
   </footer>
 
 </html>

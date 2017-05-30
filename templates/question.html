@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <ul class="list-group">
+  <form action="{{url_for('questions')}}" method='POST'>
+  {% for question, data in quiz.iteritems() %}
+      <li class="list-group-item">
+        <ul class="list-group">
+        <li class="list-group-item active">
+          {{ question }}
+        </li>
+
+        {% for answer in data["answers"] %}
+          <li class="list-group-item">
+            <input type="radio"
+                   name="{{ data["text"] }}"
+                   value="{{ answer }}" /> {{answer}}
+          </li>
+        {% endfor %}
+        </ul>
+  {% endfor %}
+  </ul>
+
+
+    <button class="btn btn-lg btn-primary btn-block" style="margin-top:40px;margin-bottom:30px" type="submit">Submit</button>
+  </form>
+{% endblock %}
